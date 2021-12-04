@@ -1,16 +1,24 @@
-import logo from "./logo.svg";
-import "./App.css";
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./App.scss";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Contact from "./Pages/Contact";
+import Blogs from "./Pages/Blogs";
 
 function App() {
   return (
-    <div className='App'>
-      <h2>Pranto Mridha</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, quas?
-        Aut deleniti excepturi in sed minus natus voluptatum, recusandae tempore
-        accusantium cupiditate culpa soluta autem eligendi vel tenetur. Aut,
-        ducimus.
-      </p>
+    <div className=''>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/home' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/blogs' element={<Blogs />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

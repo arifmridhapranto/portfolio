@@ -102,6 +102,7 @@ const ContactMe = () => {
             md={6}
             className='d-flex justify-content-center align-items-center'>
             <Image
+              fluid
               src={
                 "https://portfolio.smakosh.com/static/contact-801bb9dc1ce760be8ee3d84cd758a89a.svg"
               }

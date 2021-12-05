@@ -1,21 +1,21 @@
 import React from "react";
 import OtherBanner from "../Components/Banner/OtherBanner";
-import ContactMe from "../Components/ContactMe/ContactMe";
 import Footer from "../Components/Footer/Footer";
 import Header from "../Components/Header/Header";
+import Projects from "../Components/Projects/Projects";
 
-const Contact = () => {
+const ProjectsPage = () => {
   return (
     <div>
       <Header></Header>
       <OtherBanner>
-        <h1>Contact Me</h1>
-        <p>Feel free to Contact for any Type of Query</p>
+        <h1>Projects</h1>
+        <p>My projects makes use of latest technology tools.</p>
       </OtherBanner>
-      <ContactMe></ContactMe>
+      <Projects></Projects>
       <Footer></Footer>
     </div>
   );
 };
 
-export default Contact;
+export default ProjectsPage;

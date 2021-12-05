@@ -29,7 +29,9 @@ const Header = () => {
             <Link to='/' className='text-decoration-none mx-3 fs-4 text-light'>
               Home
             </Link>
-            <Link to='/' className='text-decoration-none mx-3 fs-4 text-light'>
+            <Link
+              to='/projects'
+              className='text-decoration-none mx-3 fs-4 text-light'>
               Projects
             </Link>
             <Link

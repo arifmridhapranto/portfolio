@@ -23,24 +23,24 @@ const Banner = () => {
         <h2>
           I'M <span>Front End Developer (React)</span>
         </h2>
-        <h3>
+        <h5>
           Every <span className='text-info'>master</span> was once a
           <span className='text-info'> beginner.</span>
-        </h3>
+        </h5>
         <div className='my-3'>
-          <ExternalLink href='https://docs.google.com/document/d/10rqC7dVd1F9PXDumOq3x8W4VRWdiLEtx7ncleQ-TIHo/edit?usp=sharing'>
+          <ExternalLink href='https://www.facebook.com/arifmridha.pranto.1/'>
             <FontAwesomeIcon
               className='border border-info p-1 rounded-circle text-info fs-1 mx-3'
               icon={faFacebook}
             />
           </ExternalLink>
-          <ExternalLink href='https://docs.google.com/document/d/10rqC7dVd1F9PXDumOq3x8W4VRWdiLEtx7ncleQ-TIHo/edit?usp=sharing'>
+          <ExternalLink href='https://www.linkedin.com/in/arifmridha'>
             <FontAwesomeIcon
               className='border border-info p-1 rounded-circle text-info fs-1 mx-3'
               icon={faLinkedin}
             />
           </ExternalLink>
-          <ExternalLink href='https://docs.google.com/document/d/10rqC7dVd1F9PXDumOq3x8W4VRWdiLEtx7ncleQ-TIHo/edit?usp=sharing'>
+          <ExternalLink href='https://github.com/arifmridhapranto'>
             <FontAwesomeIcon
               className='border border-info p-1 rounded-circle text-info fs-1 mx-3'
               icon={faGithub}

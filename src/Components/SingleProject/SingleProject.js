@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Col, Container, Image, Row, Spinner, Button } from "react-bootstrap";
+import { Col, Image, Row, Spinner, Button } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 import OtherBanner from "../Banner/OtherBanner";
 import Footer from "../Footer/Footer";

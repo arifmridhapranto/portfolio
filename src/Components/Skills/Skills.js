@@ -40,8 +40,8 @@ const Skills = () => {
               <ProgressBar animated now={88} label={`88%`} />
             </div>
             <div className='py-2'>
-              <h4 className='text-white'>React BootStrap</h4>
-              <ProgressBar variant='info' animated now={85} label={`85%`} />
+              <h4 className='text-white'>Git/ Github</h4>
+              <ProgressBar variant='info' animated now={65} label={`65%`} />
             </div>
           </Col>
           <Col xs={12} md={6} lg={4}>
